@@ -30,7 +30,7 @@ int main(){
 	int days = daysM(month, year);
 	cout << "days are: " << days << endl;
 	int daysY;
-	daysY = Leapyear ? 366 : 365;
+	daysY = Leapyear(int year) ? 366 : 365;
 	cout << daysY;
 	return 0;
 
